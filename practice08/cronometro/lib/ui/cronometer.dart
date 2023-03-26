@@ -118,7 +118,7 @@ class _CronometerState extends State<Cronometer> {
         ),
 
         SizedBox(
-          height: 200,
+          height: 400,
           width: 500,
           child: ListView.builder(
               itemCount: laps.length,
