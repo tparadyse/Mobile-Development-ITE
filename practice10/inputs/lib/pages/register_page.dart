@@ -46,7 +46,9 @@ class RegisterPage extends StatelessWidget {
               MyTextField(
                 controller: nameController,
                 hintText: 'Name',
-                obscureText: false,
+                icon: const Icon(Icons.book),
+                fillColor: Colors.grey.shade200,
+                borderSide: BorderSide(color: Colors.grey.shade400),
               ),
 
               const SizedBox(height: 10),
@@ -55,7 +57,9 @@ class RegisterPage extends StatelessWidget {
               MyTextField(
                 controller: usernameController,
                 hintText: 'Username',
-                obscureText: false,
+                icon: const Icon(Icons.person),
+                fillColor: Colors.grey.shade200,
+                borderSide: BorderSide(color: Colors.grey.shade400),
               ),
 
               const SizedBox(height: 10),
@@ -64,7 +68,9 @@ class RegisterPage extends StatelessWidget {
               MyTextField(
                 controller: emailController,
                 hintText: 'Email',
-                obscureText: false,
+                icon: const Icon(Icons.mail),
+                fillColor: Colors.grey.shade200,
+                borderSide: BorderSide(color: Colors.grey.shade400),
               ),
 
               const SizedBox(height: 10),
@@ -74,6 +80,9 @@ class RegisterPage extends StatelessWidget {
                 controller: passwordController,
                 hintText: 'Password',
                 obscureText: true,
+                icon: const Icon(Icons.remove_red_eye),
+                fillColor: Colors.grey.shade200,
+                borderSide: BorderSide(color: Colors.grey.shade400),
               ),
 
               const SizedBox(height: 20),
